@@ -1,0 +1,13 @@
+.DS_Store
+DBeaver.app/
+docker/resource/
+python/resource/*.sh
+dbms/drivers/
+.dbeaver/
+.metadata/
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+venv/
+.env
+git/workspace/day03/

@@ -1,0 +1,13 @@
+이메일 : cjs020729@gmail.com
+이름 : cjs
+
+git config --global user.email cjs020729@gmail.com
+git config --global user.name cjs
+
+
+==============================================================================
+
+git init
+git add
+git add all .
+git commit -m 

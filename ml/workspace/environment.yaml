@@ -1,0 +1,42 @@
+name: machine_learning
+
+channels:
+  - defaults
+
+dependencies:
+  - python=3.12
+  - pip
+  - jupyter
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+
+  - pip:
+    - tensorflow 
+    - notebook
+    - torch
+    - torchvision
+    - torchaudio
+    - numpy
+    - pandas
+    - scipy
+    - openpyxl
+    - matplotlib
+    - seaborn
+    - plotly
+    - bokeh
+    - scikit-learn
+    - xgboost
+    - lightgbm
+    - imbalanced-learn
+    - pillow
+    - opencv-python
+    - tqdm
+    - statsmodels
+    - pyyaml
+    - requests
+    - yfinance
+    - curl_cffi
+    - albumentations
+    - python-dotenv
+    - kaggle

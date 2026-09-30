@@ -1,0 +1,56 @@
+# https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos 에서 생성됨
+# https://www.toptal.com/developers/gitignore?templates=visualstudiocode,macos 에서 수정하세요
+
+### macOS ###
+# 일반적인
+.DS_스토어
+.애플더블
+.LSOverride
+
+# 아이콘은 반드시 \r 두 개로 끝나야 합니다.
+상
+
+
+#썸네일
+._*
+
+# 볼륨의 루트에 나타날 수 있는 파일
+.DocumentRevisions-V100
+.fseventsd
+.스포트라이트-V100
+.임시품
+쓰레기
+.볼륨아이콘.icns
+.com.apple.timemachine.donotpresent
+
+# 원격 AFP 공유에 생성될 수 있는 디렉터리
+.AppleDB
+.AppleDesktop
+네트워크 휴지통 폴더
+임시 품목
+.apdisk
+
+### macOS 패치 ###
+# iCloud에서 생성된 파일
+*.icloud
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Visual Studio Code의 로컬 히스토리
+.역사/
+
+# Visual Studio Code 확장 프로그램 개발
+*.vsix
+
+### Visual Studio Code 패치 ###
+# 파일의 로컬 기록을 모두 무시합니다
+.역사
+이온화물
+
+# https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos 끝

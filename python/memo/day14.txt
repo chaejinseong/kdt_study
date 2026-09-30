@@ -1,0 +1,13 @@
+User-Agent
+   - 사용자의 소프트웨어 식별 정보
+
+User-Agent의 필요성
+   - 무분별한 크롤링으로 서버의 과부화를 막기 위해 프로그램을 통해서 접속하는 것을 
+   차단하는 사이트들이 있다.
+   - 그런 경우 원하는 정보를 추출할 수 없기 때문에 header에 user-agent 정보를 심어야 한다.
+
+내 User-Agent를 확인하기
+   1) 브라우저
+      - https://www.useragentstring.com/
+   2) 내 운영체제
+      - https://www.whatismybrowser.com/detect/what-is-my-user-agent/#google_vignette

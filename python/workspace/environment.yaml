@@ -1,0 +1,24 @@
+name: study
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - seaborn
+  - matplotlib
+  - requests 
+  - beautifulsoup4
+  - notebook
+  - jupyterlab
+  - python-dotenv
+  - selenium
+  - sqlalchemy
+  - asyncpg
+  - aioboto3
+  - psycopg[binary]
+  - pgvector
+  - pydantic>=2.7.4
+  - sqlalchemy>=2.0.30
