@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자식 선택자(nth-child)</title>
+    <style>
+        /* .items .item:first-child{
+            color: orange;
+        } */
+        
+        /* .items .item:nth-child(5) {
+            color: orange;
+        } */
+        /* .items .item:nth-child(-n + 5) {
+            color: orange;
+        } */
+        /* .items .item:nth-child(n + 5) {
+            color: orange;
+        } */
+        /* .items .item:nth-child(2n + 1) {
+            color: orange;
+        } */
+        .items .item:nth-child(n + 3):nth-child(-n+6) {
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <ul class="items">
+        <li class="item">items의 1번 째 자식</li>
+        <li class="item">items의 2번 째 자식</li>
+        <li class="item">items의 3번 째 자식</li>
+        <li class="item">items의 4번 째 자식</li>
+        <li class="item">items의 5번 째 자식</li>
+        <li class="item">items의 6번 째 자식</li>
+        <li class="item">items의 7번 째 자식</li>
+        <li class="item">items의 8번 째 자식</li>
+    </ul>
+</body>
+</html>

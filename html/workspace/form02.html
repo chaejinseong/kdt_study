@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>양식-input(form)</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <div>
+                <p>아이디</p>
+                <input type="text" placeholder="아이디를 입력하세요." />
+            </div>
+            <div>
+                <p>비밀번호</p>
+                <input type="password" placeholder="비밀번호를 입력하세요." />
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>학과명</legend>
+            <input type="text" list="list" />
+            <datalist id="list">
+                <option value="컴퓨터공학과"></option>
+                <option value="영어영문과"></option>
+                <option value="경영학과"></option>
+                <option value="사회체육과"></option>
+            </datalist>
+        </fieldset>
+        
+        <fieldset>
+            <legend>텍스트 영역</legend>
+            <textarea style="resize: none;" rows="4" cols="10"></textarea>
+        </fieldset>
+
+        <!-- 
+            ※ name: form 태그의 값을 구분하기 위한 타입(key)
+            ※ value: 실제 사용자가 입력한 값
+        -->
+        <fieldset>
+            <legend>단일 선택</legend>
+            <div>
+                <label>
+                    <span>선택안함</span><input type="radio" name="gender" value="선택안함">
+                </label>
+                <label>
+                    <span>남</span><input type="radio" name="gender" value="남">
+                </label>
+                <!-- for="": 외부 태그를 호출 -->
+                <label>
+                    <span>여</span><input type="radio" name="gender" value="여">
+                </label>
+            </div>
+            <!-- 
+                <label for="target">밑에서 클릭</label>
+                <input id="target" type="radio"> 
+            -->
+        </fieldset>
+        <fieldset>
+            <legend>다중 선택</legend>
+        </fieldset>
+        <fieldset>
+            <legend>다중 선택(checkbox)</legend>
+            <label><span>호프 영화보기</span><input type="checkbox" name="hobby" value="호프"></label>
+            <label><span>산책</span><input type="checkbox" name="hobby" value="산책"></label>
+            <label><span>그림그리기</span><input type="checkbox" name="hobby" value="그림그리기"></label>
+            <label><span>러닝</span><input type="checkbox" name="hobby" value="러닝"></label>
+            <label><span>독서</span><input type="checkbox" name="hobby" value="독서"></label>
+            <label><span>레이싱 게임</span><input type="checkbox" name="hobby" value="레이싱 게임"></label>
+            <label><span>강아지 산책</span><input type="checkbox" name="hobby" value="강아지 산책"></label>
+            <label><span>잠자기</span><input type="checkbox" name="hobby" value="잠자기"></label>
+            <label><span>공부</span><input type="checkbox" name="hobby" value="공부"></label>
+            <label><span>칵테일</span><input type="checkbox" name="hobby" value="칵테일"></label>
+            <label><span>홀덤</span><input type="checkbox" name="hobby" value="1336"></label>
+            <label><span>화투</span><input type="checkbox" name="hobby" value="1336"></label>
+        </fieldset> 
+        <fieldset>
+            <legend>선택</legend>
+            <select name="음식" id="">
+                <option value="치킨">치킨</option>
+                <option value="치킨">짜글이</option>
+                <option value="치킨"></option>
+                <option value="치킨"></option>
+                <option value="치킨"></option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>버튼(권장)</legend>
+            <input type="submit" value="전송">
+            <input type="reset" value="리셋">
+            <input type="button" value="버튼">
+        </fieldset>
+        <fieldset>
+            <legend>파일</legend>
+            <!-- <input type="file"> -->
+             <label for="file">
+                <img src="./image/add.png" alt="추가 버튼">
+             </label>
+             <input id="file" style="display: none;" type="file" multiple/>
+        </fieldset>
+        <fieldset>
+            <legend>그 외</legend>
+            <div>
+                색상 <input type="color">
+            </div>
+            <div>
+                이메일 <input type="email" style="width: 50px;">
+            </div>
+            <div>
+                웹 사이트 <input type="url">
+            </div>
+            <div>
+                연락처 <input type="tel">
+            </div>
+            <div>
+                날짜 <input type="datetime-local"><br>
+                날짜 <input type="date">
+            </div>
+            <div>
+                참여 인원 <input type="number" value="1" min="0" max="100" step="5">
+            </div>
+            <div>
+                단계(상, 중, 하) <input type="range" value="1" min="1" max="3">
+            </div>
+        </fieldset>
+        <button>전송</button>
+    </form>
+
+    <div style="height: 500px;"></div>
+</body>
+</html>

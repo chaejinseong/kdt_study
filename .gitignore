@@ -1,0 +1,40 @@
+# ============================================
+# 코드 파일만 GitHub에 올리기 (화이트리스트 방식)
+# ============================================
+
+# 1) 일단 전부 무시
+*
+
+# 2) 폴더는 다시 탐색 허용 (폴더 안의 코드 파일을 찾기 위해)
+!*/
+
+# 3) 올릴 코드 파일만 허용
+!*.py
+!*.ipynb
+!*.sql
+!*.html
+!*.css
+!*.js
+!*.java
+!*.sh
+!.gitignore
+!README.md
+
+# 4) 코드가 들어 있어도 올리지 않을 폴더
+.DS_Store
+DBeaver.app/
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+venv/
+env/
+node_modules/
+.vscode/
+.idea/
+.metadata/
+.dbeaver/
+dbms/drivers/
+docker/resource/
+python/resource/*.sh
+css/resource/
+git/workspace/day03/

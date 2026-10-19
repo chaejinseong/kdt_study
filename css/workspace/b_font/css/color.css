@@ -1,0 +1,9 @@
+.rgb{
+    columns: rgb(0,0, 255);
+}
+
+.hex{
+    /* color: #00f;; */
+    /* color: #0000FF; */
+    color: #ed4230;
+}

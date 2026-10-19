@@ -1,0 +1,69 @@
+.font{
+    font-family: 'Pretendard';
+    font-weight: 700;
+}
+
+
+
+@font-face {
+  font-family: "Escoredream";
+  src: url("assets/fonts/S-core/SCDream1.otf") format("woff");
+  font-weight: 100;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Escoredream";
+  src: url("assets/fonts/S-core/SCDream2.otf") format("woff");
+  font-weight: 200;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Escoredream";
+  src: url("assets/fonts/S-core/SCDream3.otf") format("woff");
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Escoredream";
+  src: url("assets/fonts/S-core/SCDream4.otf") format("woff");
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Escoredream";
+  src: url("assets/fonts/S-core/SCDream5.otf") format("woff");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Escoredream";
+  src: url("assets/fonts/S-core/SCDream6.otf") format("woff");
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Escoredream";
+  src: url("assets/fonts/S-core/SCDream7.otf") format("woff");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Escoredream";
+  src: url("assets/fonts/S-core/SCDream8.otf") format("woff");
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Escoredream";
+  src: url("assets/fonts/S-core/SCDream9.otf") format("woff");
+  font-weight: 900;
+  font-display: swap;
+}

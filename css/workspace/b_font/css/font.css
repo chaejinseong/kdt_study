@@ -1,0 +1,24 @@
+p {
+  letter-spacing: -2px;
+  line-height: 1.2;
+}
+
+.oasis {
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.out-of-time {
+  letter-spacing: 0;
+}
+
+.under-line {
+  color: green;
+  text-decoration: underline;
+}
+
+.line-through {
+  color: purple;
+  text-decoration: line-through;
+}

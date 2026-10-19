@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>속성 선택자(attribute)</title>
+    <style>
+        /* 
+            선택자[속성명="속성값"] 
+            |= : value~ 시작
+            ^= : value~ 시작
+            *= : value 포함
+        */        
+        input[placeholder='이름 입력'] {
+            columns: blue;
+        }
+        input[placeholder*='입력'] {
+            border: solid 2px green;
+        }
+        input[name="name"] {
+            columns: purple;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <input type="text" name="name" placeholder="이름 입력" />
+    </div>
+    <div>
+        <input type="password" placeholder="비밀번호 입력">
+    </div>
+</body>
+</html>

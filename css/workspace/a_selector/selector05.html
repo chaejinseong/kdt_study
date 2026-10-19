@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자식 자손 선택자</title>
+
+    <style>
+        .container a{
+            color: purple;
+        }
+
+        .container p > span {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> DIV태그
+        <p> P태그
+            <a href="#"> a태그</a>
+            <span>span태그</span>
+        </p>
+        <span>span태그</span>
+    </div>
+</body>
+</html>
